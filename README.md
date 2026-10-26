@@ -13,7 +13,8 @@ AIVORA — Restaurant Operations & Guest Communication Platform A modern, respon
    
     Operations Dashboard: Live metric cards (Conversations, Confirmed Bookings, Questions Answered, Takeover alerts). Prominent red exterior-bordered takeover banner for high-priority diner alerts.
 
-    Clean, scannable table of recent guest interactions with filter tags (All, Takeover, Needs attention, Booked, Answered). Live Takeover & Conversation Hub: Dedicated conversation view with real-time guest messaging feed. 
+    Clean, scannable table of recent guest interactions with filter tags (All, Takeover, Needs attention, Booked, Answered). 
+    Live Takeover & Conversation Hub: Dedicated conversation view with real-time guest messaging feed. 
     
     Instant staff takeover mode with manual intervention controls and status badges. Table Bookings Management: Clean and clutter-free reservation list with party sizes, dates, seating preferences, and confirmation states.
     
@@ -21,32 +22,5 @@ AIVORA — Restaurant Operations & Guest Communication Platform A modern, respon
     
 
 
-# aivora-project/
-├── public/                 # Static assets and public images
-├── src/
-│   ├── assets/             # Bundled application images and media
-│   ├── components/
-│   │   ├── auth/           # Login and registration screens
-│   │   ├── bookings/       # Table reservation management views
-│   │   ├── conversations/  # Guest communication & live takeover view
-│   │   ├── dashboard/      # Main restaurant operations dashboard
-│   │   ├── designSystem/   # UI component guidelines and tokens
-│   │   ├── knowledge/      # Restaurant knowledge base and menu docs
-│   │   ├── landing/        # Public bistro-themed landing page
-│   │   ├── layout/         # Application shell (sidebar navigation & header)
-│   │   ├── onboarding/     # Multi-step restaurant onboarding wizard
-│   │   └── settings/       # Operational preferences & account configuration
-│   ├── data/
-│   │   └── mockData.ts     # Sample operational data, guest interactions, and menus
-│   ├── types.ts            # TypeScript interfaces and domain type definitions
-│   ├── App.tsx             # Main routing and screen transition logic
-│   ├── main.tsx            # React application entry point
-│   └── index.css           # Global Tailwind CSS imports and utility styles
-├── .env.example            # Environment variable template
-├── .gitignore              # Git ignore rules for node_modules and builds
-├── index.html              # HTML document template
-├── package.json            # Dependencies and npm script definitions
-├── tsconfig.json           # TypeScript configuration
-├── vite.config.ts          # Vite build tool configuration
-└── README.md               # Project documentation
+
 
