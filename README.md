@@ -20,9 +20,8 @@ AIVORA — Restaurant Operations & Guest Communication Platform A modern, respon
     Knowledge Base: Centralized repository for restaurant menus, dietary and allergen guides, wine lists, and opening hours. Staff Profile & Navigation: Sidebar with streamlined typography, active routing indicators, and quick-access Logout controls.
     
 
-# txt
 
-aivora-project/
+# aivora-project/
 ├── public/                 # Static assets and public images
 ├── src/
 │   ├── assets/             # Bundled application images and media
