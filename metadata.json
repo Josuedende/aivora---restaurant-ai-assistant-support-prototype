@@ -1,0 +1,7 @@
+{
+  "name": "AIVORA - Restaurant AI Assistant Support Prototype",
+  "description": "Visual interactive prototype of AIVORA AI assistant support platform for restaurants, showcasing manager onboarding, knowledge base uploads, real-time AI conversations, and human takeover.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
