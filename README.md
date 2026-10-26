@@ -27,3 +27,33 @@ Knowledge Base:
 Centralized repository for restaurant menus, dietary and allergen guides, wine lists, and opening hours.
 Staff Profile & Navigation:
 Sidebar with streamlined typography, active routing indicators, and quick-access Logout controls.
+
+
+aivora-project/
+├── public/                 # Static assets and public images
+├── src/
+│   ├── assets/             # Bundled application images and media
+│   ├── components/
+│   │   ├── auth/           # Login and registration screens
+│   │   ├── bookings/       # Table reservation management views
+│   │   ├── conversations/  # Guest communication & live takeover view
+│   │   ├── dashboard/      # Main restaurant operations dashboard
+│   │   ├── designSystem/   # UI component guidelines and tokens
+│   │   ├── knowledge/      # Restaurant knowledge base and menu docs
+│   │   ├── landing/        # Public bistro-themed landing page
+│   │   ├── layout/         # Application shell (sidebar navigation & header)
+│   │   ├── onboarding/     # Multi-step restaurant onboarding wizard
+│   │   └── settings/       # Operational preferences & account configuration
+│   ├── data/
+│   │   └── mockData.ts     # Sample operational data, guest interactions, and menus
+│   ├── types.ts            # TypeScript interfaces and domain type definitions
+│   ├── App.tsx             # Main routing and screen transition logic
+│   ├── main.tsx            # React application entry point
+│   └── index.css           # Global Tailwind CSS imports and utility styles
+├── .env.example            # Environment variable template
+├── .gitignore              # Git ignore rules for node_modules and builds
+├── index.html              # HTML document template
+├── package.json            # Dependencies and npm script definitions
+├── tsconfig.json           # TypeScript configuration
+├── vite.config.ts          # Vite build tool configuration
+└── README.md               # Project documentation
